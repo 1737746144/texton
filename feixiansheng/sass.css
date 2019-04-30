@@ -1,0 +1,699 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.banner_nav {
+  width: 100%;
+  height: 4.24rem;
+  background: url(./img/2123.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden; }
+  .banner_nav > .banner_head {
+    width: 100%;
+    height: 1.0666666667rem;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: space-around;
+    z-index: 1000; }
+    .banner_nav > .banner_head .cai {
+      width: 1.3333333333rem;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .banner_nav > .banner_head .cai .bg {
+        width: 0.2666666667rem;
+        height: 0.3066666667rem;
+        background: url(./img/23.png) no-repeat center;
+        background-size: cover; }
+      .banner_nav > .banner_head .cai p {
+        font-size: 0.2666666667rem;
+        color: #fff;
+        line-height: 0.2666666667rem; }
+        .banner_nav > .banner_head .cai p span {
+          display: inline-block;
+          width: 0.16rem;
+          height: 0.0933333333rem;
+          background: url(./img/jiantou.png) no-repeat center;
+          background-size: cover; }
+    .banner_nav > .banner_head .search {
+      width: 6rem;
+      height: 0.6666666667rem;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 0.4rem;
+      margin-top: 0.2666666667rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .banner_nav > .banner_head .search .bg {
+        width: 0.3466666667rem;
+        height: 0.3466666667rem;
+        background: url(./img/37.png) no-repeat center;
+        background-size: cover;
+        margin-left: 0.5333333333rem; }
+      .banner_nav > .banner_head .search input {
+        width: 4.6666666667rem;
+        height: 0.4rem;
+        background: transparent;
+        border: 0;
+        outline: none;
+        font-size: 0.2666666667rem;
+        margin-right: 0.2666666667rem; }
+    .banner_nav > .banner_head .bibi {
+      width: 1.1333333333rem;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .banner_nav > .banner_head .bibi .sion {
+        width: 0.5066666667rem;
+        height: 0.4666666667rem;
+        background: url(./img/31.png) center no-repeat;
+        background-size: cover; }
+      .banner_nav > .banner_head .bibi .sao {
+        width: 0.5066666667rem;
+        height: 0.4666666667rem;
+        background: url(./img/38.png) center no-repeat;
+        background-size: cover; }
+
+nav {
+  width: 100%;
+  background: #fff;
+  margin-top: 0.2666666667rem; }
+  nav > .banner {
+    display: flex;
+    width: 100%;
+    height: 2.4rem;
+    margin-top: 0.2666666667rem; }
+    nav > .banner > .tu1 {
+      justify-content: space-around;
+      text-align: center;
+      width: 2rem; }
+      nav > .banner > .tu1 > .tu2 {
+        width: 1.1466666667rem;
+        height: 1.1466666667rem;
+        margin: 0px auto; }
+        nav > .banner > .tu1 > .tu2 > img {
+          max-width: 100%;
+          min-width: 100%; }
+      nav > .banner > .tu1 > p {
+        padding-top: 0.2666666667rem;
+        font-size: 0.2666666667rem;
+        color: #666; }
+  nav > .yuan {
+    width: 0.5333333333rem;
+    height: 0.2666666667rem;
+    margin: 0px auto;
+    display: flex; }
+    nav > .yuan > .huang {
+      width: 0.1333333333rem;
+      height: 0.1333333333rem;
+      border-radius: 50%;
+      background: yellow; }
+    nav > .yuan > .hui {
+      width: 0.1333333333rem;
+      height: 0.1333333333rem;
+      border-radius: 50%;
+      background: #333;
+      margin-left: 0.2133333333rem; }
+
+.hdzx {
+  width: 100%;
+  background: #fff; }
+  .hdzx > .tou {
+    width: 100%;
+    height: 1.1733333333rem;
+    line-height: 0.5333333333rem; }
+    .hdzx > .tou > span {
+      display: inline-block;
+      text-align: center;
+      width: 2rem;
+      height: 0.4rem;
+      font-size: 0.4rem;
+      font-weight: 600; }
+    .hdzx > .tou > i {
+      display: inline-block;
+      width: 0.2933333333rem;
+      height: 0.2933333333rem;
+      background: url(./img/1111.png) no-repeat;
+      background-size: cover; }
+    .hdzx > .tou > p {
+      display: inline-block;
+      font-size: 0.32rem; }
+      .hdzx > .tou > p > span {
+        color: #FE8C70; }
+  .hdzx > .lan {
+    width: 100%;
+    height: 3.24rem;
+    background: url(./img/48.png) no-repeat;
+    background-size: cover;
+    position: relative; }
+    .hdzx > .lan > i {
+      display: block;
+      width: 2rem;
+      height: 0.0266666667rem;
+      background: url(./img/1.png) no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0.4rem;
+      left: 4rem; }
+    .hdzx > .lan > p {
+      width: 100;
+      height: 0.5333333333rem;
+      font-size: 0.3733333333rem;
+      color: #fff;
+      text-align: center;
+      line-height: 0.5333333333rem;
+      padding-top: 0.5333333333rem; }
+    .hdzx > .lan > .xian {
+      display: block;
+      width: 2rem;
+      height: 0.0266666667rem;
+      background: url(./img/1.png) no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 1.2rem; }
+    .hdzx > .lan > .bian {
+      width: 1.8666666667rem;
+      height: 0.4533333333rem;
+      text-align: center;
+      line-height: 0.4533333333rem;
+      margin: 0.5333333333rem auto;
+      border: 0.0266666667rem solid #fff;
+      border-radius: 10px;
+      padding-top: 0; }
+  .hdzx .xinpin {
+    width: 4.88rem;
+    height: 1.72rem;
+    background: url(./img/123.PNG) no-repeat;
+    background-size: cover;
+    margin: 0px auto; }
+  .hdzx .rou {
+    width: 10rem;
+    height: 6.6666666667rem;
+    margin: 0.2666666667rem auto;
+    display: flex; }
+    .hdzx .rou > .xianrou {
+      width: 4.9333333333rem;
+      height: 7.7333333333rem;
+      flex-direction: row; }
+      .hdzx .rou > .xianrou > h5 {
+        text-align: center;
+        font-size: 0.3733333333rem;
+        color: #333;
+        padding: 0.2666666667rem; }
+      .hdzx .rou > .xianrou > p {
+        text-align: center;
+        font-size: 0.2666666667rem;
+        color: #666; }
+      .hdzx .rou > .xianrou > span {
+        display: block;
+        width: 3.6rem;
+        display: flex;
+        justify-content: center;
+        margin: 32px auto; }
+        .hdzx .rou > .xianrou > span > img {
+          max-width: 100%; }
+      .hdzx .rou > .xianrou > .jiage {
+        width: 3.4666666667rem;
+        margin: 0px auto; }
+        .hdzx .rou > .xianrou > .jiage > i {
+          display: block;
+          font-size: 0.2666666667rem;
+          color: #666;
+          text-align: center;
+          font-style: normal;
+          margin-bottom: 0.2666666667rem; }
+        .hdzx .rou > .xianrou > .jiage > span {
+          display: block;
+          font-size: 0.3466666667rem;
+          color: #333;
+          text-align: center; }
+          .hdzx .rou > .xianrou > .jiage > span > i {
+            display: inline-block;
+            font-size: 0.4266666667rem;
+            color: red; }
+        .hdzx .rou > .xianrou > .jiage > a {
+          font-size: 0.32rem;
+          color: #999; }
+      .hdzx .rou > .xianrou > a {
+        display: block;
+        width: 2.4rem;
+        height: 0.4533333333rem;
+        background: url(./img/21321.png) no-repeat;
+        background-size: cover;
+        margin: 0px auto; }
+    .hdzx .rou > .huixian {
+      width: 0.12rem;
+      height: 5.8933333333rem;
+      background: url(./img/4231.PNG) no-repeat;
+      background-size: cover;
+      margin: 0.4rem 0px; }
+    .hdzx .rou > .shuiguo {
+      width: 4.9333333333rem;
+      height: 7.7333333333rem; }
+      .hdzx .rou > .shuiguo > h5 {
+        text-align: center;
+        font-size: 0.3733333333rem;
+        color: #333;
+        padding: 0.2666666667rem; }
+      .hdzx .rou > .shuiguo > p {
+        text-align: center;
+        font-size: 0.2666666667rem;
+        color: #666; }
+      .hdzx .rou > .shuiguo > span {
+        display: block;
+        width: 3.6533333333rem;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center; }
+        .hdzx .rou > .shuiguo > span > img {
+          max-width: 100%; }
+      .hdzx .rou > .shuiguo > .jiage {
+        width: 3.4666666667rem;
+        margin: 0px auto; }
+        .hdzx .rou > .shuiguo > .jiage > i {
+          display: block;
+          font-size: 0.2666666667rem;
+          color: #666;
+          text-align: center;
+          font-style: normal;
+          margin-bottom: 0.2666666667rem; }
+        .hdzx .rou > .shuiguo > .jiage > span {
+          display: block;
+          font-size: 0.3466666667rem;
+          color: #333;
+          text-align: center; }
+          .hdzx .rou > .shuiguo > .jiage > span > i {
+            display: inline-block;
+            font-size: 0.4266666667rem;
+            color: red; }
+        .hdzx .rou > .shuiguo > .jiage > a {
+          font-size: 0.32rem;
+          color: #999; }
+      .hdzx .rou > .shuiguo > a {
+        display: block;
+        width: 2.4rem;
+        height: 0.4533333333rem;
+        background: url(./img/21321.png) no-repeat;
+        background-size: cover;
+        margin: 0px auto; }
+  .hdzx .gengduo {
+    width: 4rem;
+    height: 1.3333333333rem;
+    margin: 0px auto; }
+    .hdzx .gengduo > p {
+      text-align: center;
+      font-size: 0.4rem;
+      color: #333; }
+    .hdzx .gengduo > i {
+      display: block;
+      width: 1.0666666667rem;
+      height: 0.2266666667rem;
+      background: url(./img/bian.png) no-repeat;
+      background-size: cover;
+      margin: 0px auto; }
+
+.mrxl {
+  width: 100%; }
+  .mrxl > .mrxl_tou {
+    width: 1.9866666667rem;
+    height: 1.0133333333rem;
+    background: url(./img/biankuang.png) no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 1.0133333333rem; }
+  .mrxl > .jiji {
+    width: 9.3333333333rem;
+    height: 5.3333333333rem;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 0.6666666667rem;
+    margin-left: 0.6666666667rem; }
+    .mrxl > .jiji > .left {
+      width: 4rem;
+      height: 5.3333333333rem; }
+      .mrxl > .jiji > .left > p {
+        width: 1.8666666667rem;
+        height: 0.4rem;
+        background: #333;
+        color: #fff;
+        text-align: center;
+        line-height: 0.4rem;
+        font-size: 0.2666666667rem;
+        margin-bottom: 0.1333333333rem; }
+      .mrxl > .jiji > .left > span {
+        display: block;
+        height: 2.8rem;
+        margin-left: 0.6666666667rem;
+        margin-top: 0.6666666667rem; }
+        .mrxl > .jiji > .left > span > img {
+          max-height: 100%; }
+    .mrxl > .jiji > .right {
+      width: 4.2666666667rem;
+      height: 5.3333333333rem; }
+      .mrxl > .jiji > .right > h2 {
+        font-size: 0.3466666667rem;
+        color: #666;
+        margin-bottom: 0.6666666667rem; }
+      .mrxl > .jiji > .right > p {
+        font-size: 0.2666666667rem;
+        color: #999;
+        text-indent: 2em;
+        margin-left: 0.1333333333rem; }
+  .mrxl > .san {
+    width: 8.6666666667rem;
+    height: 0.0266666667rem;
+    border-bottom: 2px solid #666;
+    margin: 0px auto; }
+  .mrxl > .longxia {
+    width: 9.3333333333rem;
+    height: 5.3333333333rem;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 0.6666666667rem;
+    margin-left: 0.6666666667rem; }
+    .mrxl > .longxia > .lt {
+      width: 4rem;
+      height: 5.3333333333rem; }
+      .mrxl > .longxia > .lt > p {
+        width: 1.8666666667rem;
+        height: 0.4rem;
+        background: #333;
+        color: #fff;
+        text-align: center;
+        line-height: 0.4rem;
+        font-size: 0.2666666667rem;
+        margin-bottom: 0.1333333333rem;
+        margin-left: 2.4rem; }
+      .mrxl > .longxia > .lt > span {
+        display: block;
+        height: 2.8rem;
+        margin-left: 1.0666666667rem;
+        margin-top: 0.6666666667rem; }
+        .mrxl > .longxia > .lt > span > img {
+          max-width: 100%;
+          min-width: 100%; }
+    .mrxl > .longxia > .rt {
+      width: 4.2666666667rem;
+      height: 5.3333333333rem; }
+      .mrxl > .longxia > .rt > h2 {
+        font-size: 0.3466666667rem;
+        color: #666;
+        margin-bottom: 0.6666666667rem; }
+      .mrxl > .longxia > .rt > p {
+        font-size: 0.2666666667rem;
+        color: #999;
+        text-indent: 2em;
+        margin-left: 0.1333333333rem; }
+  .mrxl > .shui {
+    width: 100%;
+    height: 3.6533333333rem;
+    display: flex; }
+    .mrxl > .shui > img {
+      max-width: 100%;
+      min-width: 100%; }
+
+.jdbm {
+  width: 100%; }
+  .jdbm > .jdbm_tou {
+    width: 3.2533333333rem;
+    height: 1.0666666667rem;
+    background: url(./img/01.PNG) no-repeat;
+    background-size: cover;
+    margin: 20px auto; }
+  .jdbm > .qinguo {
+    width: 8.6666666667rem;
+    height: 3.4666666667rem;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row; }
+    .jdbm > .qinguo > .guozi {
+      width: 2.9466666667rem;
+      height: 2.5066666667rem; }
+      .jdbm > .qinguo > .guozi > img {
+        max-width: 100%;
+        min-width: 100%; }
+    .jdbm > .qinguo > .mali {
+      width: 4rem;
+      height: 3.4666666667rem;
+      margin-left: 0.5333333333rem;
+      position: relative; }
+      .jdbm > .qinguo > .mali > p {
+        color: red;
+        font-size: 0.48rem; }
+        .jdbm > .qinguo > .mali > p > span {
+          color: #333;
+          font-size: 0.4rem; }
+        .jdbm > .qinguo > .mali > p > i {
+          color: #999;
+          font-size: 0.3466666667rem;
+          font-style: normal;
+          margin-left: 0.4rem; }
+      .jdbm > .qinguo > .mali > span {
+        display: block;
+        width: 3.4666666667rem;
+        height: 2.1333333333rem;
+        border-left: 0.0133333333rem solid #666;
+        margin-left: 0.5333333333rem;
+        color: #333;
+        font-size: 0.4rem;
+        position: absolute;
+        top: 0.8rem; }
+        .jdbm > .qinguo > .mali > span > i {
+          display: block;
+          font-size: 0.2666666667rem;
+          color: #666;
+          font-style: normal; }
+  .jdbm > .chengz {
+    width: 8.6666666667rem;
+    height: 3.4666666667rem;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row; }
+    .jdbm > .chengz > .guozi {
+      width: 2.9466666667rem;
+      height: 2.5066666667rem;
+      margin-left: 0.5333333333rem; }
+      .jdbm > .chengz > .guozi > img {
+        max-width: 100%;
+        min-width: 100%; }
+    .jdbm > .chengz > .mali {
+      width: 4rem;
+      height: 3.4666666667rem;
+      position: relative; }
+      .jdbm > .chengz > .mali > p {
+        color: red;
+        font-size: 0.48rem; }
+        .jdbm > .chengz > .mali > p > span {
+          color: #333;
+          font-size: 0.4rem; }
+        .jdbm > .chengz > .mali > p > i {
+          color: #999;
+          font-size: 0.3466666667rem;
+          font-style: normal;
+          margin-left: 0.4rem; }
+      .jdbm > .chengz > .mali > span {
+        display: block;
+        width: 3.4666666667rem;
+        height: 2.1333333333rem;
+        border-right: 0.0133333333rem solid #666;
+        margin-left: 0.5333333333rem;
+        color: #333;
+        font-size: 0.4rem;
+        position: absolute;
+        top: 0.8rem; }
+        .jdbm > .chengz > .mali > span > i {
+          display: block;
+          font-size: 0.2666666667rem;
+          color: #666;
+          font-style: normal; }
+  .jdbm > ul {
+    width: 100%;
+    height: 4rem;
+    display: flex; }
+    .jdbm > ul > li {
+      width: 3.4266666667rem;
+      height: 3.4666666667rem;
+      justify-content: space-around; }
+      .jdbm > ul > li > p {
+        font-size: 0.4266666667rem;
+        text-align: center; }
+      .jdbm > ul > li > span {
+        display: block;
+        font-size: 0.24rem;
+        text-align: center; }
+      .jdbm > ul > li > .chun {
+        width: 1.5733333333rem;
+        height: 1.5333333333rem;
+        margin: 0.1333333333rem auto;
+        display: flex;
+        justify-content: center; }
+        .jdbm > ul > li > .chun > img {
+          max-width: 100%;
+          min-width: 100%; }
+      .jdbm > ul > li > .qian {
+        width: 2.4rem;
+        height: 0.5333333333rem;
+        margin: 0 auto; }
+        .jdbm > ul > li > .qian > p {
+          width: 2.4rem;
+          height: 0.5333333333rem;
+          font-size: 0.24rem;
+          text-align: center;
+          color: #444; }
+          .jdbm > ul > li > .qian > p > span {
+            color: red;
+            font-size: 0.3466666667rem; }
+          .jdbm > ul > li > .qian > p > i {
+            font-size: 0.1866666667rem;
+            color: #999;
+            font-style: normal;
+            margin-left: 0.4rem; }
+  .jdbm > .chakan {
+    width: 1.3333333333rem;
+    height: 1.1066666667rem;
+    display: flex;
+    margin: 0px auto; }
+    .jdbm > .chakan > img {
+      max-width: 100%;
+      min-width: 100%; }
+
+.banner_tu {
+  width: 100%;
+  height: 5.6rem;
+  margin-top: 0.2666666667rem; }
+  .banner_tu > img {
+    max-width: 100%;
+    min-width: 100%; }
+
+.banner_tu1 {
+  width: 100%;
+  height: 5.6rem;
+  margin-top: 0.2666666667rem; }
+  .banner_tu1 > img {
+    max-width: 100%;
+    min-width: 100%; }
+
+.banner_tu2 {
+  width: 100%;
+  height: 5.6rem;
+  margin-top: 0.2666666667rem; }
+  .banner_tu2 > img {
+    max-width: 100%;
+    min-width: 100%; }
+
+.dajia {
+  width: 4.2133333333rem;
+  height: 1.36rem;
+  margin: 0px auto; }
+  .dajia > img {
+    max-width: 100%;
+    min-width: 100%; }
+
+.dajia {
+  width: 100%;
+  height: 13.3333333333rem;
+  background: #fff;
+  margin-top: 0.2666666667rem; }
+  .dajia .content {
+    width: 100%;
+    height: 3.7333333333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .dajia .content .bg {
+      width: 3.0133333333rem;
+      height: 2.8666666667rem;
+      background: url(./img/putao.png) center no-repeat;
+      background-size: cover; }
+    .dajia .content .text h1 {
+      font-size: 0.3733333333rem;
+      color: #444; }
+    .dajia .content .text p {
+      font-size: 0.2933333333rem;
+      color: #A0A0A0;
+      padding-top: 0.1333333333rem; }
+    .dajia .content .text .text_level {
+      width: 2.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .dajia .content .text .text_level p {
+        font-size: 0.1866666667rem;
+        color: #444444;
+        padding: 0; }
+        .dajia .content .text .text_level p span {
+          font-size: 0.4rem;
+          color: #FD663B; }
+      .dajia .content .text .text_level del {
+        font-size: 0.1866666667rem;
+        color: #A0A0A0; }
+    .dajia .content .text .bg {
+      width: 2.4rem;
+      height: 0.4533333333rem;
+      background: url(./img/21321.png) center no-repeat;
+      background-size: cover;
+      margin-top: 0.3466666667rem; }
+  .dajia .Dividing_line {
+    width: 93%;
+    height: 0.0133333333rem;
+    background: #E5E5E5;
+    margin: 0 auto auto; }
+  .dajia .See_more {
+    width: 1.1066666667rem;
+    height: 0.48rem;
+    background: url(./img/15451.png) center no-repeat;
+    background-size: cover;
+    margin: 0.6666666667rem auto 0 auto; }
+
+.foot_banner {
+  width: 100%;
+  height: 1.3333333333rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1.3333333333rem;
+  display: flex; }
+  .foot_banner > img {
+    max-width: 100%;
+    min-width: 100%; }
+
+footer {
+  width: 100%;
+  height: 1.3333333333rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  background: #EFEFEF;
+  bottom: 0px; }
+  footer > .foot_nav01 {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    footer > .foot_nav01 > i {
+      display: block;
+      height: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      footer > .foot_nav01 > i > img {
+        max-height: 100%; }
+    footer > .foot_nav01 > span {
+      font-size: 0.2666666667rem; }
+
+/*# sourceMappingURL=sass.css.map */
